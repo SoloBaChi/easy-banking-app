@@ -1,0 +1,79 @@
+
+
+/* main index page */
+section{
+padding:0.5rem 5%;
+margin-bottom:4rem;
+font-size:95%;
+}
+section h2{
+text-align:center;
+}
+
+
+
+/* banner section styles */
+.banner-section{
+position:relative;
+padding:0;
+}
+.image-banner{
+border:0px solid red;
+position: relative;
+z-index:1000;
+padding:0rem 0.5rem;
+}
+.mockup{
+
+}
+.request-invite-btn{
+margin:0 auto;
+display:block;
+}
+button .cta-btn{
+width:160px;
+margin-top:2rem;
+}
+
+/* ===================
+Why choose Styles
+======================*/
+.why-choose-us{
+text-align:center;
+}
+.flex-container >*{
+margin-bottom:2.4rem;
+}
+.figure >*{
+margin-bottom:1.5rem;
+}
+.figure .img-container{
+width:85px;
+height:85px;
+border-radius:50%;
+margin:1.5rem auto;
+}
+
+
+
+/* ===================
+Latest Article Styles
+======================*/
+article{
+margin-bottom:1.5rem;
+box-shadow:1px 1px 3px rgba(0,0,0,0.25);
+border-radius:6px;
+}
+/* article >*{
+border-radius:inherit;
+} */
+article img{
+border-radius:6px 6px 0px 0px;
+}
+article .article-body{
+padding:1rem;
+}
+
+article .article-body >*{
+margin:1rem 0rem;
+}

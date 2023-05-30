@@ -1,0 +1,98 @@
+
+@import url("https://fonts.google.com/specimen/Public+Sans");
+@import url("header.css");
+@import url("index.css");
+@import url("footer.css");
+/*
+======================
+Default styles
+=======================
+*/
+html{
+box-sizing:border-box;
+}
+*,
+*::before,
+*::after{
+box-sizing:inherit;
+padding:0;
+margin:0;
+}
+*::selection{
+background-color:hsl(192, 70%, 51%);
+color:#fff;
+}
+body{
+background-color:#fff;
+font-family:sans-serif;
+}
+
+ul{
+list-style:none;
+padding:1rem;
+text-transform:capitalize;
+}
+a{
+text-decoration:none;
+}
+ul a{
+color:#000;
+display:block;
+padding:0.7rem;
+}
+
+button{
+border:none;
+box-shadow:none;
+outline:none;
+background-color:transparent;
+}
+.cta-btn{
+background:linear-gradient(to left,hsl(192, 70%, 51%),hsl(136, 65%, 51%));
+border-radius:25px;
+color:#fff;
+/* display:none; */
+display:block;
+padding:0.7rem;
+margin:1rem 2rem;
+}
+.cta-btn.desktop-btn{
+display:none;
+}
+cite{
+font-size:0.85rem;
+font-style:normal;
+font-weight:400;
+color:#A7A7A7;
+}
+p{
+font-size:0.95rem;
+font-weight:400;
+color:#A7A7A7;
+}
+h1,h2,h3{
+margin-bottom:1rem;
+}
+h2{
+font-size:1.8rem;
+font-weight:400;
+}
+h3{
+font-size:1.2rem;
+font-weight:400;
+}
+
+img{
+width:100%;
+}
+
+
+/* 
+==========================
+Default styles ends 
+==========================
+*/
+
+
+
+

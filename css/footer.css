@@ -1,0 +1,16 @@
+.footer-container{
+text-align:center;
+background:hsl(233, 26%, 24%);
+color:#fff;
+padding-bottom:2rem;
+}
+.footer-container .footer-nav a{
+color:#fff;
+}
+.footer-container 
+.attribution a{
+margin-bottom:1rem;
+color:hsl(192, 70%, 51%);
+font-weight:400;
+font-size:0.85rem;
+}
