@@ -24,3 +24,25 @@ display:flex;
 justify-content:center;
 align-items:center;
 }
+
+
+
+
+
+/* ===================
+Large Desktop Styles
+======================*/
+
+@media(min-width:980px){
+.footer-container{
+display:flex;
+flex-flow:row wrap;
+align-items:center;
+justify-content:space-around;
+}
+.footer-container>*:last-child{
+margin-left:auto;
+flex-basis:34%;
+}
+
+}
