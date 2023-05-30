@@ -93,6 +93,29 @@ Default styles ends
 ==========================
 */
 
+/* ========================
+Desktop view styles
+===========================*/
+@media(min-width:980px){
+.flex-4{
+display:flex;
+flex-flow:row wrap;
+gap:4%;
+}
+.flex-4>*{
+flex-basis:48%;
+}
+}
+
+
+/* ========================
+Large Desktop view styles
+===========================*/
+@media(min-width:1440px){
+.flex-4>*{
+flex-basis:22%;
+}    
+}
 
 
 
