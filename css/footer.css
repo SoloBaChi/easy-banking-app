@@ -2,7 +2,8 @@
 text-align:center;
 background:hsl(233, 26%, 24%);
 color:#fff;
-padding-bottom:2rem;
+padding:2rem 0rem;
+
 }
 .footer-container .footer-nav a{
 color:#fff;
@@ -13,4 +14,13 @@ margin-bottom:1rem;
 color:hsl(192, 70%, 51%);
 font-weight:400;
 font-size:0.85rem;
+}
+.footer-container  img{
+display:flex;
+}
+
+.media-link-list{
+display:flex;
+justify-content:center;
+align-items:center;
 }
