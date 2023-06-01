@@ -91,5 +91,28 @@ margin:1rem 0rem;
 @media(min-width:980px){
 section{
 padding:1.5rem 9%;
+text-align:left;
+}
+.why-choose-us,
+section h2{
+text-align:left;
+}
+.why-choose-us{
+background-color: rgba(0,0,0,0.025);
+}
+.figure .img-container{
+margin:1.5rem 0;
+}
+.flex-container.top{
+display:flex;
+flex-flow: row wrap;
+align-items:center;
+background:transparent;
+}
+.flex-container.top>*{
+flex-basis:48%;
+}
+.flex-container.top>*:first-child{
+order:2;
 }
 }
