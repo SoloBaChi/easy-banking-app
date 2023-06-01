@@ -40,6 +40,19 @@ flex-flow:row wrap;
 align-items:center;
 justify-content:space-around;
 }
+
+.footer-container>*:nth-child(2) ul{
+display:flex;
+flex-flow:row wrap;
+/* align-items:center; */
+}
+.footer-container>*:nth-child(2) ul>*{
+flex-basis:48%;
+}
+.footer-container>*:first-child{
+flex-basis:22%;
+margin-right:auto;
+}
 .footer-container>*:last-child{
 margin-left:auto;
 flex-basis:34%;
