@@ -68,8 +68,14 @@ border-radius:6px;
 /* article >*{
 border-radius:inherit;
 } */
+article .img-container{
+height:280px;
+}
 article img{
 border-radius:6px 6px 0px 0px;
+height:100%;
+object-fit:cover;
+object-position:50% 100%;
 }
 article .article-body{
 padding:1rem;
@@ -77,4 +83,13 @@ padding:1rem;
 
 article .article-body >*{
 margin:1rem 0rem;
+}
+
+
+
+
+@media(min-width:980px){
+section{
+padding:1.5rem 9%;
+}
 }

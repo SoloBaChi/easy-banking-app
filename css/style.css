@@ -47,16 +47,16 @@ box-shadow:none;
 outline:none;
 background-color:transparent;
 }
+.nav-menu li:last-child a,
 .cta-btn{
 background:linear-gradient(to left,hsl(192, 70%, 51%),hsl(136, 65%, 51%));
 border-radius:25px;
 color:#fff;
-/* display:none; */
 display:block;
-padding:0.7rem;
 margin:1rem 2rem;
+padding:0.7rem;
 }
-.cta-btn.desktop-btn{
+.desktop-btn{
 display:none;
 }
 cite{
@@ -104,6 +104,15 @@ gap:4%;
 }
 .flex-4>*{
 flex-basis:48%;
+}
+ul{
+padding:0rem;
+}
+.nav-menu li:last-child a{
+margin:0;
+}
+.desktop-btn{
+display:block;
 }
 }
 
