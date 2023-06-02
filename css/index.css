@@ -24,8 +24,8 @@ position: relative;
 z-index:1000;
 padding:0rem 0.5rem;
 }
-.mockup{
-
+.image-banner.desktop{
+display:none;
 }
 .request-invite-btn{
 margin:0 auto;
@@ -92,6 +92,12 @@ margin:1rem 0rem;
 section{
 padding:1.5rem 9%;
 text-align:left;
+}
+.image-banner.desktop{
+display:block;
+}
+.image-banner.mobile{
+display:none;
 }
 .why-choose-us,
 section h2{
