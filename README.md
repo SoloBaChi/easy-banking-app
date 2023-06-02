@@ -25,6 +25,6 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
 ## Author
 
 - Website - [Solomon Chiakonam](https://solomon-chiakonam.onrender.com/)
-- Frontend Mentor - [@SoloBachi](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@SoloBachi](https://www.frontendmentor.io/profile/SoloBachi)
 - Twitter - [@Solobachi](https://www.twitter.com/Solobachi)
 
